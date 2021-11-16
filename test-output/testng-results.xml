@@ -1,33 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[organisation created]]>
+    </line>
+    <line>
+      <![CDATA[organisation done]]>
+    </line>
   </reporter-output>
-  <suite started-at="2021-11-16T10:10:21 IST" name="Default suite" finished-at="2021-11-16T10:12:07 IST" duration-ms="106370">
+  <suite started-at="2021-11-16T17:16:17 IST" name="Suite" finished-at="2021-11-16T17:17:27 IST" duration-ms="69626">
     <groups>
+      <group name="regression test">
+        <method signature="OrganisationModule.contactorgTest()[pri:0, instance:vtiger.testcases.OrganisationModule@21e360a]" name="contactorgTest" class="vtiger.testcases.OrganisationModule"/>
+      </group> <!-- regression test -->
     </groups>
-    <test started-at="2021-11-16T10:10:21 IST" name="Default test" finished-at="2021-11-16T10:12:07 IST" duration-ms="106370">
-      <class name="OppurtunityModule.CreateOpportunitywithCampaignSource">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:OppurtunityModule.CreateOpportunitywithCampaignSource@1af2d44a]" started-at="2021-11-16T10:10:21 IST" name="launchBrowser" finished-at="2021-11-16T10:10:29 IST" duration-ms="7554" status="PASS">
+    <test started-at="2021-11-16T17:16:17 IST" name="Test" finished-at="2021-11-16T17:17:27 IST" duration-ms="69626">
+      <class name="vtiger.testcases.OrganisationModule">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:vtiger.testcases.OrganisationModule@21e360a]" started-at="2021-11-16T17:16:18 IST" name="launchBrowser" finished-at="2021-11-16T17:16:29 IST" duration-ms="11195" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="Login()[pri:0, instance:OppurtunityModule.CreateOpportunitywithCampaignSource@1af2d44a]" started-at="2021-11-16T10:10:29 IST" name="Login" finished-at="2021-11-16T10:11:09 IST" duration-ms="40272" status="PASS">
+        <test-method is-config="true" signature="Login()[pri:0, instance:vtiger.testcases.OrganisationModule@21e360a]" started-at="2021-11-16T17:16:29 IST" name="Login" finished-at="2021-11-16T17:16:39 IST" duration-ms="10215" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="campainsource()[pri:0, instance:OppurtunityModule.CreateOpportunitywithCampaignSource@1af2d44a]" started-at="2021-11-16T10:11:09 IST" name="campainsource" finished-at="2021-11-16T10:12:00 IST" duration-ms="51041" status="PASS">
+        <test-method signature="contactorgTest()[pri:0, instance:vtiger.testcases.OrganisationModule@21e360a]" started-at="2021-11-16T17:16:39 IST" name="contactorgTest" finished-at="2021-11-16T17:17:21 IST" duration-ms="41924" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[organisation created]]>
+            </line>
+            <line>
+              <![CDATA[organisation done]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- campainsource -->
-        <test-method is-config="true" signature="Logout()[pri:0, instance:OppurtunityModule.CreateOpportunitywithCampaignSource@1af2d44a]" started-at="2021-11-16T10:12:00 IST" name="Logout" finished-at="2021-11-16T10:12:07 IST" duration-ms="6571" status="PASS">
+        </test-method> <!-- contactorgTest -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:vtiger.testcases.OrganisationModule@21e360a]" started-at="2021-11-16T17:17:21 IST" name="Logout" finished-at="2021-11-16T17:17:27 IST" duration-ms="5917" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:OppurtunityModule.CreateOpportunitywithCampaignSource@1af2d44a]" started-at="2021-11-16T10:12:07 IST" name="closeBrowser" finished-at="2021-11-16T10:12:07 IST" duration-ms="791" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- OppurtunityModule.CreateOpportunitywithCampaignSource -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- vtiger.testcases.OrganisationModule -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
